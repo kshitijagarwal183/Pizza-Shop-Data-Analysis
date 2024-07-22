@@ -1,0 +1,1 @@
+select d.pizza_id, r.order_satis from order_details as d join pizza_reviews as r on d.order_id = r.order_id
